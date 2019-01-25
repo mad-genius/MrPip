@@ -5,13 +5,13 @@ A PHP "point-in-polygon" utility. It’s heavily based on [davidkonrad](https://
 
 Just include the class in your code:
 
-```
+```php
 include_once 'path/to/class-mg-pip.php';
 ```
 
 ## Usage
 
-```
+```php
 $point_in_question = new Point(LAT, LNG);
 
 $polygon = array(
